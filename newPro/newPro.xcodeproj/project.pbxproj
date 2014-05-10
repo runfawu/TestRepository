@@ -21,6 +21,7 @@
 		04EBFDE2191DF6C00069AA4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EBFDC4191DF6C00069AA4C /* UIKit.framework */; };
 		04EBFDEA191DF6C00069AA4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EBFDE8191DF6C00069AA4C /* InfoPlist.strings */; };
 		04EBFDEC191DF6C00069AA4C /* newProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EBFDEB191DF6C00069AA4C /* newProTests.m */; };
+		04EBFDF7191DF87A0069AA4C /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EBFDF6191DF87A0069AA4C /* NewsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		04EBFDE7191DF6C00069AA4C /* newProTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "newProTests-Info.plist"; sourceTree = "<group>"; };
 		04EBFDE9191DF6C00069AA4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04EBFDEB191DF6C00069AA4C /* newProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newProTests.m; sourceTree = "<group>"; };
+		04EBFDF5191DF87A0069AA4C /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		04EBFDF6191DF87A0069AA4C /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		04EBFDC6191DF6C00069AA4C /* newPro */ = {
 			isa = PBXGroup;
 			children = (
+				04EBFDF5191DF87A0069AA4C /* NewsViewController.h */,
+				04EBFDF6191DF87A0069AA4C /* NewsViewController.m */,
 				04EBFDCF191DF6C00069AA4C /* AppDelegate.h */,
 				04EBFDD0191DF6C00069AA4C /* AppDelegate.m */,
 				04EBFDD2191DF6C00069AA4C /* Main.storyboard */,
@@ -252,6 +257,7 @@
 				04EBFDD7191DF6C00069AA4C /* ViewController.m in Sources */,
 				04EBFDD1191DF6C00069AA4C /* AppDelegate.m in Sources */,
 				04EBFDCD191DF6C00069AA4C /* main.m in Sources */,
+				04EBFDF7191DF87A0069AA4C /* NewsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
